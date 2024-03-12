@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    /* Change background color to background image */
+    background-image: url('bg.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(176, 3, 3, 0.1);
+}
+
+/* Rest of the styling remains unchanged */
+.city-card {
+    margin-bottom: 20px; /* Add some margin between city cards */
+    padding: 20px; /* Add padding for better visual appearance */
+    border: 1px solid #e50f0f; /* Add a border to separate city cards */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    background-color: #03dce8; /* Background color for city cards */
+}
+
+/* ... (rest of the styling) */
+
+
+
+.city-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.city-info {
+    margin-top: 10px;
+    color: #ef0198;
+}
+
+.city-image {
+    width: 100%;
+    max-height: 200px; /* Adjusted max height for better image display */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 1px solid #ddd; /* Improved border for images */
+}
+.city-card {
+    margin-bottom: 20px; /* Add some margin between city cards */
+}
